@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What financial charge did NVIDIA take after the U.S. government began requiring export licenses in April 2025 for its China-bound data center chips, and what was it for?",
+    "reference": "A $4.5 billion charge in the first quarter of fiscal year 2026, associated with H20 excess inventory and purchase obligations, because demand for H20 products diminished after the USG required a license to export H20 to China (including Hong Kong and Macau) and D:5 countries.",
+    "companies": ["NVDA"],
+    "pages": [{"source": "NVDA_10K_2026.pdf", "page": 26, "page_end": 26}],
+    "type": "single_hop",
+    "content_type": "text"
+  },
+  {
+    "question": "what have driven the revenue growth of Nvidia in 2026?",
+    "reference": "data center compute, networking platforms for accelerated computing and AI solutions",
+    "companies": ["NVDA"],
+    "pages": [{"source": "NVDA_10K_2026.pdf", "page": 36, "page_end": 36}],
+    "type": "single_hop",
+    "content_type": "text"
+  }
+]

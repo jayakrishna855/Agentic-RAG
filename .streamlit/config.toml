@@ -1,0 +1,4 @@
+[server]
+# Streamlit's file watcher walks every imported module; transformers' lazy vision modules
+# then try to import torchvision (not installed) -> ModuleNotFoundError. Not needed for a demo.
+fileWatcherType = "none"

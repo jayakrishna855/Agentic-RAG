@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "n": 7,
+    "same_session_acc": 1.0,
+    "after_restart_acc": 1.0
+  },
+  "rows": [
+    {
+      "setup": "My name is Priya and I'm researching NVIDIA.",
+      "follow_up": "What's my name?",
+      "keywords": [
+        "priya"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "Your name is Priya. How can I assist you further with your research on NVIDIA?",
+      "answer_restart": "Your name is Priya. How can I assist you further with your research on NVIDIA?"
+    },
+    {
+      "setup": "Let's focus on Apple.",
+      "follow_up": "What is its stock ticker?",
+      "keywords": [
+        "aapl"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "Apple's stock ticker is AAPL.",
+      "answer_restart": "Apple's stock ticker is AAPL."
+    },
+    {
+      "setup": "What is 120 times 3?",
+      "follow_up": "Now divide that result by 4.",
+      "keywords": [
+        "90"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "The result of dividing 360 by 4 is 90.",
+      "answer_restart": "The result of dividing 360 by 4 is 90."
+    },
+    {
+      "setup": "I care most about Microsoft's risk factors.",
+      "follow_up": "Which company did I say I care about?",
+      "keywords": [
+        "microsoft",
+        "msft"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "You said you care most about Microsoft's risk factors.",
+      "answer_restart": "You said you care most about Microsoft's risk factors."
+    },
+    {
+      "setup": "Remember the number 4821.",
+      "follow_up": "What number did I ask you to remember?",
+      "keywords": [
+        "4821"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "You asked me to remember the number 4821.",
+      "answer_restart": "You asked me to remember the number 4821."
+    },
+    {
+      "setup": "I have $5,000 to split equally between NVDA and AAPL.",
+      "follow_up": "How much goes to each?",
+      "keywords": [
+        "2,500",
+        "2500"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "You would allocate $2,500 to each of NVDA and AAPL.",
+      "answer_restart": "You would allocate $2,500 to NVIDIA (NVDA) and $2,500 to Apple (AAPL)."
+    },
+    {
+      "setup": "How many employees did NVIDIA have at the end of fiscal 2026?",
+      "follow_up": "Remind me, what employee count did you just give me?",
+      "keywords": [
+        "42,000",
+        "42000"
+      ],
+      "same_session": true,
+      "after_restart": true,
+      "answer_same": "I stated that NVIDIA had approximately 42,000 employees at the end of fiscal 2026.",
+      "answer_restart": "I provided the employee count for NVIDIA at the end of fiscal 2026 as approximately 42,000 employees."
+    }
+  ]
+}

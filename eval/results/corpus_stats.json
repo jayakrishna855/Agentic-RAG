@@ -1,0 +1,20 @@
+{
+  "documents": 4,
+  "pages": 383,
+  "chunks": 2419,
+  "text_chunks": 2175,
+  "table_chunks": 244,
+  "cross_page_table_merges": 7,
+  "chunks_per_company": {
+    "AAPL": 495,
+    "MSFT": 709,
+    "NVDA": 668,
+    "AMZN": 547
+  },
+  "avg_chunk_chars": 599,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "table_max_chars": 2400,
+  "embed_model": "BAAI/bge-small-en-v1.5",
+  "embed_seconds": 223.3
+}

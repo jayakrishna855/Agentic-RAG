@@ -1,0 +1,117 @@
+{
+  "model": "gpt-4.1-mini",
+  "days": 30,
+  "runs": 101,
+  "p50_latency_s": 3.45,
+  "p95_latency_s": 41.69,
+  "mean_latency_s": 8.59,
+  "avg_tokens_per_query": 2324.0,
+  "avg_cost_per_query_usd": 0.00097,
+  "avg_llm_calls_per_query": 1.93,
+  "avg_node_time_s": {
+    "agent": 2.59,
+    "tools": 5.94
+  },
+  "slowest_node": "tools",
+  "by_source": {
+    "memory-eval": {
+      "runs": 28,
+      "p50_latency_s": 1.65,
+      "p95_latency_s": 8.77,
+      "mean_latency_s": 5.09,
+      "avg_tokens_per_query": 1395.0,
+      "avg_cost_per_query_usd": 0.00059,
+      "avg_llm_calls_per_query": 1.43,
+      "avg_node_time_s": {
+        "agent": 1.7,
+        "tools": 3.32
+      },
+      "slowest_node": "tools"
+    },
+    "routing-eval": {
+      "runs": 23,
+      "p50_latency_s": 5.95,
+      "p95_latency_s": 14.31,
+      "mean_latency_s": 7.62,
+      "avg_tokens_per_query": 2289.0,
+      "avg_cost_per_query_usd": 0.00106,
+      "avg_llm_calls_per_query": 1.96,
+      "avg_node_time_s": {
+        "agent": 2.62,
+        "tools": 4.97
+      },
+      "slowest_node": "tools"
+    },
+    "untagged": {
+      "runs": 50,
+      "p50_latency_s": 5.18,
+      "p95_latency_s": 45.14,
+      "mean_latency_s": 10.99,
+      "avg_tokens_per_query": 2861.0,
+      "avg_cost_per_query_usd": 0.00115,
+      "avg_llm_calls_per_query": 2.2,
+      "avg_node_time_s": {
+        "agent": 3.08,
+        "tools": 7.85
+      },
+      "slowest_node": "tools"
+    }
+  },
+  "by_model": {
+    "gpt-4.1-mini": {
+      "runs": 101,
+      "p50_latency_s": 3.45,
+      "p95_latency_s": 41.69,
+      "mean_latency_s": 8.59,
+      "avg_tokens_per_query": 2324.0,
+      "avg_cost_per_query_usd": 0.00097,
+      "avg_llm_calls_per_query": 1.93,
+      "avg_node_time_s": {
+        "agent": 2.59,
+        "tools": 5.94
+      },
+      "slowest_node": "tools"
+    },
+    "openai/gpt-oss-120b": {
+      "runs": 12,
+      "p50_latency_s": 9.86,
+      "p95_latency_s": 127.19,
+      "mean_latency_s": 35.09,
+      "avg_tokens_per_query": 4570.0,
+      "avg_cost_per_query_usd": 0.00088,
+      "avg_llm_calls_per_query": 2.33,
+      "avg_node_time_s": {
+        "agent": 13.11,
+        "tools": 21.53
+      },
+      "slowest_node": "tools"
+    }
+  },
+  "tool_latency_s": {
+    "calculator": {
+      "calls": 24,
+      "p50": 0.0,
+      "p95": 0.06
+    },
+    "get_stock_price": {
+      "calls": 25,
+      "p50": 0.35,
+      "p95": 5.9
+    },
+    "search_documents": {
+      "calls": 42,
+      "p50": 11.25,
+      "p95": 51.27
+    },
+    "web_search": {
+      "calls": 20,
+      "p50": 2.11,
+      "p95": 3.37
+    },
+    "wikipedia": {
+      "calls": 9,
+      "p50": 6.1,
+      "p95": 7.1
+    }
+  }
+}

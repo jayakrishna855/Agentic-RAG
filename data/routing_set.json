@@ -1,0 +1,32 @@
+[
+  {"question": "What supply chain risks does Apple describe in its 10-K?", "expected_tools": ["search_documents"]},
+  {"question": "How many people did Microsoft employ at the end of fiscal 2026 according to its annual report?", "expected_tools": ["search_documents"]},
+  {"question": "What does NVIDIA's 10-K say about the impact of U.S. export controls on its business?", "expected_tools": ["search_documents"]},
+  {"question": "What were Amazon's total assets on its balance sheet as of December 31, 2025?", "expected_tools": ["search_documents"]},
+
+  {"question": "What has Apple announced in the news this week?", "expected_tools": ["web_search"]},
+  {"question": "What are the latest headlines about NVIDIA's most recent earnings call?", "expected_tools": ["web_search"]},
+  {"question": "Has Amazon announced any layoffs in the past month?", "expected_tools": ["web_search"]},
+  {"question": "What did Microsoft announce at its most recent developer conference?", "expected_tools": ["web_search"]},
+
+  {"question": "Who founded Amazon and in what year?", "expected_tools": ["wikipedia"]},
+  {"question": "Give me some background on the history of NVIDIA as a company.", "expected_tools": ["wikipedia"]},
+  {"question": "What is a Form 10-K and who requires companies to file it?", "expected_tools": ["wikipedia"]},
+
+  {"question": "What is NVIDIA's stock price right now?", "expected_tools": ["get_stock_price"]},
+  {"question": "Where is AAPL trading today?", "expected_tools": ["get_stock_price"]},
+  {"question": "Give me the latest share price for Microsoft.", "expected_tools": ["get_stock_price"]},
+
+  {"question": "What is 18.5% of 4,230,000?", "expected_tools": ["calculator"]},
+  {"question": "If total assets are 359,241 and total liabilities are 285,508, what percentage of assets is equity?", "expected_tools": ["calculator"]},
+  {"question": "What is 1,000 grown at 8% per year for 5 years?", "expected_tools": ["calculator"]},
+
+  {"question": "What is MSFT's current price multiplied by 1.15?", "expected_tools": ["get_stock_price", "calculator"]},
+  {"question": "How much higher is NVIDIA's current share price than Amazon's, in dollars?", "expected_tools": ["get_stock_price", "calculator"]},
+  {"question": "Using the employee count in Apple's 10-K, what was Apple's FY2025 net income per employee?", "expected_tools": ["search_documents", "calculator"]},
+  {"question": "What export-control risks does NVIDIA list in its 10-K, and have there been any new export rule changes in the news recently?", "expected_tools": ["search_documents", "web_search"]},
+  {"question": "What is Apple's current stock price, and what does its 10-K say about its share repurchase program?", "expected_tools": ["get_stock_price", "search_documents"]},
+
+  {"question": "Hi, what can you help me with?", "expected_tools": []},
+  {"question": "Thanks, that was helpful!", "expected_tools": []}
+]

@@ -1,0 +1,7 @@
+,hit@5,hit@5,hit@5,mrr,mrr,mrr,context_recall,context_recall,context_recall
+group,multi_hop,single_table,single_text,multi_hop,single_table,single_text,multi_hop,single_table,single_text
+config,,,,,,,,,
+dense,0.714,0.769,1.0,0.357,0.635,0.882,0.321,0.731,1.0
+hybrid,0.714,0.846,1.0,0.295,0.737,0.86,0.464,0.808,1.0
+hybrid_rerank,1.0,0.885,1.0,0.857,0.671,0.939,0.786,0.84,1.0
+hybrid_rerank_fast,1.0,0.885,1.0,0.69,0.748,0.958,0.429,0.808,1.0
